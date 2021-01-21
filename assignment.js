@@ -15,7 +15,8 @@ function budgetCalculator(clock,phone,laptop){
     var clockPrice = 50;
     var phonePrice = 100;
     var laptopPrice = 500;
-    return clock * clockPrice + phone * phonePrice + laptop * laptopPrice;
+    var budget = (clock * clockPrice) + (phone * phonePrice) + (laptop * laptopPrice);
+    return budget;
 }
 
 
@@ -53,5 +54,3 @@ function megaFriend(friendsArray){
     }
     return biggestName;
 }
-
-
