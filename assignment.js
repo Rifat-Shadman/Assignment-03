@@ -45,7 +45,7 @@ function megaFriend(friendsArray){
     var biggestName;
     var biggestNameLength = 0;
     for(var i=0; i<friendsArray.length; i++){
-        if(typeof(friendsArray[i]) != String) return "The array has other data types than string"
+        if(typeof(friendsArray[i]) != String) return "The array has other data types than string."
         if(biggestNameLength < friendsArray[i].length){
             biggestName = friendsArray[i];
             biggestNameLength = friendsArray[i].length;
@@ -55,7 +55,3 @@ function megaFriend(friendsArray){
 }
 
 
-console.log(kilometerToMeter(5));
-console.log(budgetCalculator(1,1,1));
-console.log(hotelCost(0));
-console.log(megaFriend(['a','adadgagds','aaa',17,'bbbbe']));
