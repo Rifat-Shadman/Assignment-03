@@ -40,7 +40,7 @@ function hotelCost(days){
 // megaFriend
 
 function megaFriend(friendsArray){
-    if(friendsArray.length == 0) return "Empty array!! There is no name!";
+    if(friendsArray.length == 0) return "The input array is empty. Make some friends.";
     
     var biggestName;
     var biggestNameLength = 0;
